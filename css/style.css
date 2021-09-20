@@ -11,7 +11,7 @@ body{
     background-size: cover;
     margin: auto;
     text-align: center;
-    width: 1280px;
+    /* width: 1280px; */
 }
 
 header{
@@ -30,6 +30,21 @@ iframe{
     height: 720px;
     width: 1280px;
 }
+
+@media (max-width: 1279px ){
+    iframe{
+        height: 315px;
+        width: 560px;
+    }
+}
+
+@media (max-width: 580px ){
+    iframe{
+        height: 155px;
+        width: 280px;
+    }
+}
+
 
 .curiosidades{
     color: white;
